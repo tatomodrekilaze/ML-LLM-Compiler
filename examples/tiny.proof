@@ -1,0 +1,7 @@
+# Input values flow through two dense layers and one ReLU.
+input 3 f64
+
+# Format: dense <output width> <weights, row by row> <biases>
+dense 2 f64 0.5 -0.25 1.0 0.25 0.75 -0.5 0.1 -0.2
+relu
+dense 1 f64 1.0 -1.0 0.0

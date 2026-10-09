@@ -1,0 +1,6 @@
+# Proofline precision plan v1
+# Produced for tiny.proof using tiny.cal with an absolute-error limit of 0.01.
+# Observed maximum absolute calibration error: 0.0062500000000000888
+# Dense parameter payload: 22 bytes.
+dense bf16
+dense bf16

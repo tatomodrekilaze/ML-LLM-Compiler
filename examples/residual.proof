@@ -1,0 +1,4 @@
+# Identity projection plus a residual connection back to the model input.
+input 3 f64
+dense 3 f64 1 0 0 0 1 0 0 0 1 0 0 0
+add input

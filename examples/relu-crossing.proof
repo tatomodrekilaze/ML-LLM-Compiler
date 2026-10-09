@@ -1,0 +1,5 @@
+# The first Dense output crosses zero over the declared input box.
+input 1 f64
+dense 1 f64 1 -0.125
+relu
+dense 1 f64 1 0

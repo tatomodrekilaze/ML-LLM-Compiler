@@ -1,0 +1,3 @@
+# Apply one rotary position to two adjacent feature pairs.
+input 4 f64
+rope 1 10000

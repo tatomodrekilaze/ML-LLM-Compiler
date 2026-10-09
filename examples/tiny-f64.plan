@@ -1,0 +1,3 @@
+# Baseline plan with no reduced-precision layers.
+dense f64
+dense f64

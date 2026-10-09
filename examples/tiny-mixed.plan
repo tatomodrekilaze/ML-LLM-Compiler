@@ -1,0 +1,3 @@
+# First Dense layer stays f64; the second uses bfloat16.
+dense f64
+dense bf16

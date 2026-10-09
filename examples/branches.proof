@@ -1,0 +1,5 @@
+# Two projections read the same input, then meet at a residual Add.
+input 2 f64
+dense 2 f64 1 0 0 1 0 0
+dense_from input 2 f64 2 0 0 3 0 0
+add v1

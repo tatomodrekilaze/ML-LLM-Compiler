@@ -1,0 +1,4 @@
+# Normalize each token row, then rotate it using its position in the sequence.
+input2d 2 4 f64
+rmsnorm 0.00001 1 1 1 1
+rope 0 10000

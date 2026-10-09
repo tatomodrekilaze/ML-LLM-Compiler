@@ -1,0 +1,8 @@
+# Two tokens with two features. The three projections are identity matrices.
+input2d 2 2 f64
+linear 2 f64 1 0 0 1 0 0
+linear_from input 2 f64 1 0 0 1 0 0
+linear_from input 2 f64 1 0 0 1 0 0
+
+# Full attention lets both query rows read both key/value rows.
+attention v1 v2 v3 full

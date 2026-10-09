@@ -1,0 +1,11 @@
+# Two token rows, each with two input features.
+input2d 2 2 f64
+
+# Apply the same 2x2 projection to each row: [2, 0; 0, 3], then add [0, 1].
+linear 2 f64 2 0 0 3 0 1
+
+# Keep nonnegative activations for the next layer.
+relu
+
+# Add the original token rows back as a residual connection.
+add input

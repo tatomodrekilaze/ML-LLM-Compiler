@@ -1,0 +1,8 @@
+# Two tokens with four features. Each projection uses the identity matrix.
+input2d 2 4 f64
+linear 4 f64 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0
+linear_from input 4 f64 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0
+linear_from input 4 f64 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0
+
+# Split the four features into two independent two-feature heads.
+attention v1 v2 v3 2 causal
