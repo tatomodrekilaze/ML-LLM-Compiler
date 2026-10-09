@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title description">
+  <title id="title">Proofline precision planner run</title>
+  <desc id="description">A terminal-style rendering of the recorded Proofline precision plan for the included tiny neural network example.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset="1" stop-color="#172554"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#101b2e"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#020617" flood-opacity=".45"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="620" rx="28" fill="url(#background)"/>
+  <circle cx="1080" cy="85" r="150" fill="#2563eb" opacity=".12"/>
+  <circle cx="1010" cy="550" r="190" fill="#14b8a6" opacity=".08"/>
+  <text x="70" y="76" fill="#93c5fd" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="3">PROOFLINE · C++20 INFERENCE COMPILER</text>
+  <text x="70" y="126" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">A precision plan you can inspect.</text>
+  <text x="70" y="160" fill="#a7b4c8" font-family="Segoe UI, Arial, sans-serif" font-size="17">Tiny two-layer example · four calibration vectors · measured output error</text>
+  <g filter="url(#shadow)">
+    <rect x="70" y="196" width="1060" height="352" rx="18" fill="url(#panel)" stroke="#334155" stroke-width="1.5"/>
+    <path d="M70 214a18 18 0 0 1 18-18h1024a18 18 0 0 1 18 18v36H70z" fill="#1e293b"/>
+    <circle cx="100" cy="224" r="7" fill="#fb7185"/>
+    <circle cx="124" cy="224" r="7" fill="#fbbf24"/>
+    <circle cx="148" cy="224" r="7" fill="#34d399"/>
+    <text x="600" y="230" text-anchor="middle" fill="#94a3b8" font-family="Segoe UI, Arial, sans-serif" font-size="13">recorded planner output</text>
+  </g>
+  <g font-family="Cascadia Code, Consolas, monospace" font-size="19">
+    <text x="108" y="296" fill="#5eead4">$</text>
+    <text x="132" y="296" fill="#e2e8f0">proofline plan examples/tiny.proof examples/tiny.cal 0.01 tiny.plan</text>
+    <text x="108" y="350" fill="#cbd5e1">Selected plan tiny.plan</text>
+    <text x="108" y="386" fill="#cbd5e1">Calibration vectors: 4</text>
+    <text x="108" y="422" fill="#cbd5e1">Maximum observed absolute error: 0.0062500000000000888</text>
+    <text x="108" y="458" fill="#cbd5e1">Parameter payload: 22 bytes</text>
+    <text x="108" y="494" fill="#cbd5e1">Assignments checked: 4</text>
+    <text x="108" y="530" fill="#cbd5e1">Projection 0: bfloat16   ·   Projection 1: bfloat16</text>
+  </g>
+  <text x="70" y="588" fill="#94a3b8" font-family="Segoe UI, Arial, sans-serif" font-size="14">The error is measured on these calibration vectors; it is not a worst-case guarantee.</text>
+</svg>
