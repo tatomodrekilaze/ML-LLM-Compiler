@@ -116,3 +116,7 @@ For fixed-length causal attention timing and fixed-array storage estimates, run 
 ## Development standard
 
 Every feature should have a small example, a plain-language explanation, and a result that can be reproduced. Performance claims need a stated machine, compiler, model, and measurement method. The project will distinguish measured calibration error from a mathematical guarantee.
+
+## Notes
+
+Initial scaffolding and boilerplate were AI-assisted; all compiler logic, graph validation, and verification scripts were written and reviewed manually.
